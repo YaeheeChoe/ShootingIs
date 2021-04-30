@@ -1,0 +1,27 @@
+﻿  main.cpp
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\Render.h(35,18): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\Render.h(35,25): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\Bullet.h(17,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\Bullet.h(49,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\Bullet.h(53,91): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\Bullet.h(53,65): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\Bullet.h(53,37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\Bullet.h(53,19): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\Bullet.h(78,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\Bullet.h(78,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\Bullet.h(84,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\Bullet.h(84,26): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\Sound.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\CirclePatton.h(54,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\Monster.h(16,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\Monster.h(24,12): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\Monster.h(36,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\Monster.h(37,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\Monster.h(40,26): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\Monster.h(40,15): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\Monster.h(61,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\Monster.h(88,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\Monster.h(88,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\main.cpp(335,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Yaehee\Desktop\shooting-is-master\ShootingIS\main.cpp(344,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  ShootingIS.vcxproj -> C:\Users\Yaehee\Desktop\shooting-is-master\Debug\ShootingIS.exe
