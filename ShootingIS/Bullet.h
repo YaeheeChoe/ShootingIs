@@ -1,6 +1,6 @@
-#pragma once
+﻿#pragma once
 #include <math.h>
-
+#include "Render.h"
 struct Bullet
 {
 	float x;
@@ -16,7 +16,7 @@ Bullet bullet_queue[BULLET_MAX];
 int bullet_top = 0;
 float bullet_speed = 0.3;
 #define PI 3.1415926535
-
+//여기부터 bullet 객체
 void Bullet_create(float x, float y, float dx, float dy, int color = RED)
 {
 	bullet_queue[bullet_top].life = true;
@@ -43,6 +43,19 @@ void Bullet_Init()
 		bullet_queue[i].life = false;
 	}
 }
+bool Bullet_isColide(int x, int y)
+{
+	int i;
+	for (i = 0; i < BULLET_MAX; i++)
+	{
+		if (!bullet_queue[i].life)
+			continue;
+		if ((int)bullet_queue[i].x == x && (int)bullet_queue[i].y == y)
+			return true;
+	}
+	return false;
+}
+//
 void Bullet_CirclePatton(float x, float y,  float r = 1.0, int color = RED)
 {
 	float alpha;
@@ -53,18 +66,7 @@ void Bullet_CirclePatton(float x, float y,  float r = 1.0, int color = RED)
 		Bullet_create(x + r*cos(alpha), y + r* sin(alpha), cos(alpha) * bullet_speed, sin(alpha)*bullet_speed, color);
 	}
 }
-bool Bullet_isColide(int x, int y)
-{
-	int i;
-	for (i = 0; i < BULLET_MAX; i++)
-	{
-		if (!bullet_queue[i].life)
-			continue;
-		if ((int)bullet_queue[i].x == x && (int)bullet_queue[i].y == y )
-			return true;
-	}
-	return false;
-}
+
 void Bullet_Update()
 {
 	int i;

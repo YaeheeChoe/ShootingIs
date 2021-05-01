@@ -275,7 +275,6 @@ void GameOverPage(float playtime)
 }
 int main()
 {
-	
 	float loading_startTime;
 	float ingame_startTime;
 	float playTime;
